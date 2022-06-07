@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultAllMainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/Rtable1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="50dp">
+
+                <TableRow
+                    android:id="@+id/Rtr1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#C8C8C8"
+                    android:backgroundTint="#C6C6C6">
+
+                    <TextView
+                        android:id="@+id/Rtitle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Ημ/νια Αγώνα "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rtitle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Άθλημα "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rtitle3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Πόλη Αγώνα "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rtitle4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Χώρα Αγώνα "
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/Rtitle5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Νέο "
+                        android:textAlignment="center" />
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Rtr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Rtv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rtv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rtv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rtv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/Rtv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/Rtable2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp">
+
+                <TableRow
+                    android:id="@+id/R1tr1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#C8C8C8"
+                    android:backgroundTint="#C6C6C6">
+
+                    <TextView
+                        android:id="@+id/R1title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Άθλημα "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Καλύτερη Επίδοση "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Ομάδα/Αθλητής "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Ημερομηνία "
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/R1title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Νέο "
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/R1tr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/R1tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R1tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/Rtable3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp">
+
+                <TableRow
+                    android:id="@+id/R11tr1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#C8C8C8"
+                    android:backgroundTint="#C6C6C6">
+
+                    <TextView
+                        android:id="@+id/R11title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Άθλημα "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R12title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Καλύτερη Επίδοση "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R13title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Ομάδα/Αθλητής "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R14title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Ημερομηνία "
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R14title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Νέο "
+                        android:textAlignment="center" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/R12tr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/R11tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R12tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R13tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R14tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/R14tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+                </TableRow>
+
+            </TableLayout>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/ShowAllOScoreBtn"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Εμφάνιση/Επεξεργασία Score Ομάδων"/>
+
+            <Button
+                android:id="@+id/ShowAllAScoreBtn"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Εμφάνιση/Επεξεργασία Score Αθλητών" />
+
+        </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
+
+</FrameLayout>

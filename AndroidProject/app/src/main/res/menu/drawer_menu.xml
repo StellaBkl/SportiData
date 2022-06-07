@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/textmenu"
+            android:title="Μενού">
+<menu>
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/baseline_home_white_48"
+        android:iconTint="#FFFFFF"
+        android:checked="true"
+        android:title="Αρχική">
+    </item>
+</menu>
+        </item>
+        <item
+            android:id="@+id/infoathl"
+            android:title="Βασικές Πληροφορίες"
+            app:showAsAction="never">
+            <menu>
+                <item android:id="@+id/athlites"
+                 android:title="Αθλητές">
+                </item>
+                <item android:id="@+id/sports"
+                    android:title="Αθλήματα">
+                </item>
+                <item android:id="@+id/teams"
+                   android:title="Ομάδες">
+                </item>
+            </menu>
+        </item>
+
+        <item android:id="@+id/infoagones"
+            android:title="Πληροφορίες Αγώνων">
+
+        <menu>
+            <item android:id="@+id/agones"
+                android:title="Αγώνες">
+            </item>
+            <item
+                android:id="@+id/score"
+                android:title="Score Αγώνων">
+            </item>
+        </menu>
+
+        </item>
+
+
+
+    </group>
+
+
+</menu>

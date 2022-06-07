@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardBackgroundColor="#F1FCFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+
+        <ImageView
+            android:id="@+id/ASTvUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/ic_baseline_edit_24" />
+
+        <ImageView
+            android:id="@+id/ASTvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery1"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+
+        <TextView
+            android:id="@+id/ASTvQuery11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="ID Επίδοσης"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/ASTvUpdate"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toEndOf="@id/ASTvQuery11"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery11"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Επίδοση"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery1"
+            android:layout_toStartOf="@id/ASTvDelete"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toEndOf="@id/ASTvQuery22"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery22"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="ID Αθλητή"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery2"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@id/ASTvQuery33"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery33"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="ID Αθλήματος"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery3"
+            android:layout_alignParentEnd="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@id/ASTvQuery44"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/ASTvQuery55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery44"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="ID Αγώνα"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ASTvQuery5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ASTvQuery4"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_toEndOf="@id/ASTvQuery55"
+            android:textAlignment="textStart"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

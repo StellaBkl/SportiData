@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/TitleUpOmada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Ανανέωση Ομάδας"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/UpOmadaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:hint="ID Ομάδας"
+        android:layout_below="@id/TitleUpOmada"/>
+
+    <EditText
+        android:id="@+id/UpOmadaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Όνομα Ομάδας"
+        android:layout_below="@id/UpOmadaID"/>
+
+    <EditText
+        android:id="@+id/UpOmadaGipedo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Γήπεδο Ομάδας"
+        android:layout_below="@id/UpOmadaName"/>
+
+    <EditText
+        android:id="@+id/UpOmadaPoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Πόλη Ομάδας"
+        android:layout_below="@id/UpOmadaGipedo"/>
+
+    <EditText
+        android:id="@+id/UpOmadaXora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Χώρα Ομάδας"
+        android:layout_below="@id/UpOmadaPoli"/>
+    <EditText
+        android:id="@+id/UpOmadaSportID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Όνομα Αθλήματος Ομάδας"
+        android:layout_below="@id/UpOmadaXora"/>
+    <EditText
+        android:id="@+id/UpOmadaIdrisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Έτος Ίδρυσης Ομάδας"
+        android:layout_below="@id/UpOmadaSportID"/>
+
+
+    <Button
+        android:id="@+id/UpdateOBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpOmadaIdrisi"
+        android:layout_alignParentStart="true"
+        android:text="Ανανέωση" />
+
+    <Button
+        android:id="@+id/CancelOBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpOmadaIdrisi"
+        android:layout_alignParentEnd="true"
+        android:text="Άκυρο" />
+
+
+</RelativeLayout>

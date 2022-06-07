@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".InsertOmadaScoreActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/InsertOSToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal|vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/ETInsertOSEpidosiID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="ID Επίδοσης" />
+
+        <EditText
+            android:id="@+id/ETInsertOSEpidosi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Επίδοση" />
+
+        <EditText
+            android:id="@+id/ETInsertOSOmadaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="ID Ομάδας" />
+
+        <EditText
+            android:id="@+id/ETInsertOSAthlimaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="ID Αθλήματος" />
+
+        <EditText
+            android:id="@+id/ETInsertOSAgonaID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="ID Αγώνα" />
+
+        <Button
+            android:id="@+id/BInsertOmScore"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="Εισαγωγή" />
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+    </LinearLayout>

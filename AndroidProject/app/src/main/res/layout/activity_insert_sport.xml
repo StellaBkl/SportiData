@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".InsertSportActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/InsertSToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <EditText
+                android:id="@+id/ETInsertAthlimaID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="ID Αθλήματος" />
+
+            <EditText
+                android:id="@+id/ETInsertAthlimaName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Όνομα Αθλήματος" />
+
+            <EditText
+                android:id="@+id/ETInsertAthlimaType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Τύπος Αθλήματος" />
+
+            <EditText
+                android:id="@+id/ETInsertAthlGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Φύλο Αθλητών" />
+
+            <Button
+                android:id="@+id/BInsertSport"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="Εισαγωγή" />
+
+        </LinearLayout>
+
+
+</ScrollView>
+
+    </LinearLayout>

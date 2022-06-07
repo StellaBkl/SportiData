@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/TitleUpAthlitis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Ανανέωση Αθλητή"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/UpAthlitisID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:hint="ID Αθλητή"
+        android:layout_below="@id/TitleUpAthlitis"/>
+
+    <EditText
+        android:id="@+id/UpAthlitisFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Όνομα Αθλητή"
+        android:layout_below="@id/UpAthlitisID"/>
+
+    <EditText
+        android:id="@+id/UpAthlitisLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Επίθετο Αθλητή"
+        android:layout_below="@id/UpAthlitisFName"/>
+
+    <EditText
+        android:id="@+id/UpAthlitisPoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Πόλη Αθλητή"
+        android:layout_below="@id/UpAthlitisLName"/>
+
+    <EditText
+        android:id="@+id/UpAthlitisXora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Χώρα Αθλητή"
+        android:layout_below="@id/UpAthlitisPoli"/>
+    <EditText
+        android:id="@+id/UpAthlitisSportID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Αθλήματος Αθλητή"
+        android:layout_below="@id/UpAthlitisXora"/>
+    <EditText
+        android:id="@+id/UpAthlitisEtosGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Έτος Γέννησης Αθλητή"
+        android:layout_below="@id/UpAthlitisSportID"/>
+
+
+    <Button
+        android:id="@+id/UpdateABtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpAthlitisEtosGen"
+        android:layout_alignParentStart="true"
+        android:text="Ανανέωση" />
+
+    <Button
+        android:id="@+id/CancelABtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpAthlitisEtosGen"
+        android:layout_alignParentEnd="true"
+        android:text="Άκυρο" />
+
+
+</RelativeLayout>

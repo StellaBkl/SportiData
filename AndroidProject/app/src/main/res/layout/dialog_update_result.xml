@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/TvUpdateResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Ανανέωση Αγώνα"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/UpdateIdResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:hint="ID Αγώνα"
+            android:layout_below="@id/TvUpdateResult"/>
+
+        <EditText
+            android:id="@+id/UpdateDateResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ημ/νία Αγώνα"
+            android:layout_below="@id/UpdateIdResult"/>
+
+        <EditText
+            android:id="@+id/UpdateCountryResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Χώρα Αγώνα"
+            android:layout_below="@id/UpdateDateResult"/>
+
+        <EditText
+            android:id="@+id/UpdatePoliResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Πόλη Αγώνα"
+            android:layout_below="@id/UpdateCountryResult"/>
+
+        <EditText
+            android:id="@+id/UpdateOnomaSResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Όνομα Αθλήματος Αγώνα"
+            android:layout_below="@id/UpdatePoliResult"/>
+
+
+    <Button
+        android:id="@+id/UpdateRBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpdateOnomaSResult"
+        android:layout_alignParentStart="true"
+        android:text="Ανανέωση" />
+
+    <Button
+        android:id="@+id/CancelRBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpdateOnomaSResult"
+        android:layout_alignParentEnd="true"
+        android:text="Άκυρο" />
+
+
+</RelativeLayout>
+
+

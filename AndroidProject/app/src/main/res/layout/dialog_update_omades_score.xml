@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/TitleUpOmadaScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Ανανέωση Score Ομάδας"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/UpEpidosiID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:hint="ID Επίδοσης"
+        android:layout_below="@id/TitleUpOmadaScore"/>
+
+    <EditText
+        android:id="@+id/UpEpidosi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Επίδοση"
+        android:layout_below="@id/UpEpidosiID"/>
+
+    <EditText
+        android:id="@+id/UpOmadesID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Ομάδας"
+        android:layout_below="@id/UpEpidosi"/>
+
+    <EditText
+        android:id="@+id/UpAthlimaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Αθλήματος"
+        android:layout_below="@id/UpOmadesID"/>
+
+    <EditText
+        android:id="@+id/UpAgonaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Αγώνα"
+        android:layout_below="@id/UpAthlimaID"/>
+
+
+
+    <Button
+        android:id="@+id/UpdateOSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpAgonaID"
+        android:layout_alignParentStart="true"
+        android:text="Ανανέωση" />
+
+    <Button
+        android:id="@+id/CancelOSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpAgonaID"
+        android:layout_alignParentEnd="true"
+        android:text="Άκυρο" />
+
+
+</RelativeLayout>

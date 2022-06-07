@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/TitleUpSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Ανανέωση Αθλήματος"
+        android:textAlignment="center"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/UpSportID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:hint="ID Αθλήματος"
+        android:layout_below="@id/TitleUpSport"/>
+
+    <EditText
+        android:id="@+id/UpSportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Όνομα Αθλήματος"
+        android:layout_below="@id/UpSportID"/>
+
+    <EditText
+        android:id="@+id/UpSportType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Τύπος Αθλήματος"
+        android:layout_below="@id/UpSportName"/>
+
+    <EditText
+        android:id="@+id/UpSportGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Φύλο Αθλητών"
+        android:layout_below="@id/UpSportType"/>
+
+
+
+    <Button
+        android:id="@+id/UpdateSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpSportGender"
+        android:layout_alignParentStart="true"
+        android:text="Ανανέωση" />
+
+    <Button
+        android:id="@+id/CancelSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UpSportGender"
+        android:layout_alignParentEnd="true"
+        android:text="Άκυρο" />
+
+
+</RelativeLayout>

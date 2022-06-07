@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardBackgroundColor="#F1FCFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/OTvQuery11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="@string/omada_id"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/OTvUpdate"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toEndOf="@id/OTvQuery11"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery11"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="@string/omada_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery1"
+            android:layout_toStartOf="@id/OTvDelete"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toEndOf="@id/OTvQuery22"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery22"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="@string/omada_stadio"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery22"
+            android:layout_toStartOf="@id/OTvMaps"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@id/OTvQuery33"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery33"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="@string/omada_poli"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery3"
+            android:layout_alignParentEnd="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@id/OTvQuery44"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/OTvUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/ic_baseline_edit_24" />
+
+        <ImageView
+            android:id="@+id/OTvMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_below="@id/OTvQuery2"
+            android:src="@drawable/ic_baseline_location_on_24" />
+
+        <TextView
+            android:id="@+id/OTvQuery55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery44"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="@string/omada_xora"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery4"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_toEndOf="@id/OTvQuery55"
+            android:textAlignment="textStart"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/OTvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery1"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+
+    <TextView
+        android:id="@+id/OTvQuery66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OTvQuery55"
+        android:layout_alignParentStart="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="8dp"
+        android:text="@string/omada_sid"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/OTvQuery6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OTvQuery5"
+        android:layout_alignParentEnd="true"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="8dp"
+        android:layout_toEndOf="@id/OTvQuery66"
+        android:textAlignment="textStart"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery66"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="@string/omada_date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/OTvQuery7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OTvQuery6"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_toEndOf="@id/OTvQuery77"
+            android:textAlignment="textStart"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

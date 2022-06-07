@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardBackgroundColor="#F1FCFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+
+        <ImageView
+            android:id="@+id/ATvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery1"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+        <ImageView
+            android:id="@+id/ATvUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:src="@drawable/ic_baseline_edit_24" />
+
+        <TextView
+            android:id="@+id/ATvQuery11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="ID Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/ATvUpdate"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toEndOf="@id/ATvQuery11"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery11"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Όνομα Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery1"
+            android:layout_toStartOf="@id/ATvDelete"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toEndOf="@id/ATvQuery22"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery22"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Επίθετο Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery2"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@id/ATvQuery33"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery33"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Πόλη Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery3"
+            android:layout_alignParentEnd="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:textAlignment="textStart"
+            android:layout_toEndOf="@id/ATvQuery44"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/ATvQuery55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery44"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Χώρα Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery4"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_toEndOf="@id/ATvQuery55"
+            android:textAlignment="textStart"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/ATvQuery66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery55"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Όνομα Αθλήματος Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery5"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_toEndOf="@id/ATvQuery66"
+            android:textAlignment="textStart"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery66"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:text="Έτος Γέννησης Αθλητή: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ATvQuery7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ATvQuery6"
+            android:layout_alignParentEnd="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_toEndOf="@id/ATvQuery77"
+            android:textAlignment="textStart"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
